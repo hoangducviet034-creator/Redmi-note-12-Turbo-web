@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#04050A" />
+  <meta name="description" content="Khám phá Redmi Note 12 Turbo với Snapdragon 7+ Gen 2, màn hình OLED 120Hz, camera 64MP OIS và pin 5.000 mAh." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Redmi Note 12 Turbo — Hiệu năng đỉnh cao, thiết kế mỏng nhẹ" />
+  <meta property="og:description" content="Một trải nghiệm giới thiệu sản phẩm dark-tech cinematic với mô hình điện thoại 3D tương tác." />
+  <meta property="og:image" content="/og-note12turbo.svg" />
+  <title>Redmi Note 12 Turbo — Hiệu năng đỉnh cao, thiết kế mỏng nhẹ</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Redmi Note 12 Turbo",
+    "description": "Smartphone với Snapdragon 7+ Gen 2, màn hình OLED 120Hz, camera chính 64MP OIS và pin 5.000 mAh.",
+    "brand": { "@type": "Brand", "name": "Redmi" },
+    "category": "Smartphone",
+    "color": ["Carbon Black", "Ice Feather White", "Xinghai Blue"]
+  }
+  </script>
+</head>
+<body>
+  <div id="loader" class="loader" aria-label="Đang tải trải nghiệm">
+    <div class="loader-mark"><span>NOTE</span><b>12</b></div>
+    <p>REDMI NOTE 12 TURBO</p>
+    <div class="loader-track"><i id="loader-progress"></i></div>
+    <small>INITIALIZING EXPERIENCE</small>
+  </div>
+
+  <div id="app" class="app-shell">
+    <div class="aurora aurora-a" aria-hidden="true"></div>
+    <div class="aurora aurora-b" aria-hidden="true"></div>
+    <div class="grid-floor" aria-hidden="true"></div>
+    <div class="grain" aria-hidden="true"></div>
+    <div class="scene-vignette" aria-hidden="true"></div>
+
+    <div class="phone-stage" aria-hidden="true">
+      <canvas id="phone-canvas" aria-label="Mô hình 3D tương tác Redmi Note 12 Turbo"></canvas>
+      <div class="phone-halo"></div>
+      <div class="orbit orbit-one"></div>
+      <div class="orbit orbit-two"></div>
+      <div class="stage-caption"><span class="status-dot"></span><span id="stage-caption-text">XINGHAI BLUE / 3D STUDIO</span></div>
+    </div>
+    <div class="accessible-3d-controls" role="group" aria-label="Điều khiển mô hình điện thoại 3D">
+      <span>ĐIỀU KHIỂN MÔ HÌNH 3D</span>
+      <button id="rotate-left" type="button">Xoay sang trái</button>
+      <button id="rotate-right" type="button">Xoay sang phải</button>
+      <button id="reset-view" type="button">Đặt lại góc nhìn</button>
+    </div>
+    <div id="cursor-dot" class="cursor-dot" aria-hidden="true"></div>
+    <div id="cursor-ring" class="cursor-ring" aria-hidden="true"></div>
+
+    <header class="topbar" id="topbar">
+      <a href="#hero" class="brand-lockup" aria-label="Redmi Note 12 Turbo, về đầu trang">
+        <span class="brand-symbol">R</span>
+        <span class="brand-name">REDMI <i>NOTE 12 TURBO</i></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Điều hướng chính">
+        <a href="#design">Thiết kế</a>
+        <a href="#display">Màn hình</a>
+        <a href="#performance">Hiệu năng</a>
+        <a href="#camera">Camera</a>
+        <a href="#specs">Thông số</a>
+      </nav>
+      <a class="nav-cta" href="#colors">Khám phá máy <span>↗</span></a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Mở menu" aria-expanded="false"><i></i><i></i></button>
+    </header>
+
+    <div id="mobile-menu" class="mobile-menu" aria-hidden="true">
+      <div class="mobile-menu-top"><span>MENU / NOTE 12 TURBO</span><button id="menu-close" aria-label="Đóng menu">×</button></div>
+      <a href="#design">01 <span>Thiết kế</span><b>↗</b></a>
+      <a href="#display">02 <span>Màn hình</span><b>↗</b></a>
+      <a href="#performance">03 <span>Hiệu năng</span><b>↗</b></a>
+      <a href="#camera">04 <span>Camera</span><b>↗</b></a>
+      <a href="#battery">05 <span>Năng lượng</span><b>↗</b></a>
+      <a href="#colors">06 <span>Bộ sưu tập màu</span><b>↗</b></a>
+      <a href="#specs">07 <span>Thông số</span><b>↗</b></a>
+    </div>
+
+    <main>
+      <section class="story-section hero" id="hero" data-scene="hero">
+        <div class="section-index"><span>01</span><i></i> THE SPEED OF LIGHT</div>
+        <div class="hero-copy content-block">
+          <p class="eyebrow"><span class="eyebrow-line"></span> BUILT TO MOVE YOU</p>
+          <h1>Redmi Note<br><span class="title-gradient">12 Turbo</span><sup>™</sup></h1>
+          <p class="hero-subtitle">Ánh sáng của <em>tốc độ.</em></p>
+          <p class="hero-description">Hiệu năng Snapdragon 7+ Gen 2. Màn hình OLED 120Hz. Thiết kế mỏng chỉ 7,9 mm.</p>
+          <div class="hero-actions">
+            <a href="#design" class="button button-primary">Khám phá 3D <span>↘</span></a>
+            <a href="#specs" class="button button-ghost">Xem thông số <span>↗</span></a>
+          </div>
+          <div class="hero-footnote"><span>4 NM</span><i></i><span>120 HZ OLED</span><i></i><span>64 MP OIS</span></div>
+        </div>
+        <div class="hero-side-note"><span>SCROLL TO EXPLORE</span><div class="scroll-line"><i></i></div><span>01 — 09</span></div>
+        <div class="hero-product-label"><span class="micro-label">01 / FORM</span><strong>Precision<br>in every line.</strong></div>
+      </section>
+
+      <section class="story-section split-section design-section" id="design" data-scene="design">
+        <div class="section-index"><span>02</span><i></i> FORM / FEEL / FINISH</div>
+        <div class="content-block section-copy left-copy">
+          <p class="eyebrow">LESS IS MORE</p>
+          <h2>Mỏng nhẹ.<br><span class="title-gradient">Tinh xảo</span><br>đến từng milimet.</h2>
+          <p class="section-description">Thân máy thanh thoát, mặt lưng phẳng và khung viền gọn gàng. Mọi đường nét hướng đến cảm giác cầm nắm cân đối, hiện đại.</p>
+          <div class="metric-row">
+            <div class="metric"><strong data-count="7.9" data-decimals="1">7,9</strong><span>mm <i>ĐỘ DÀY</i></span></div>
+            <div class="metric"><strong data-count="181">181</strong><span>g <i>TRỌNG LƯỢNG</i></span></div>
+            <div class="metric"><strong data-count="161.1" data-decimals="1">161,1</strong><span>mm <i>CHIỀU CAO</i></span></div>
+          </div>
+          <div class="spec-note"><span class="tiny-dot"></span> Flat frame · Refined silhouette · 7.9 mm</div>
+        </div>
+        <div class="section-aside aside-right"><span class="vertical-label">DESIGNED TO FEEL RIGHT</span><span class="aside-number">7.9<span>MM</span></span></div>
+      </section>
+
+      <section class="story-section split-section display-section" id="display" data-scene="display">
+        <div class="section-index"><span>03</span><i></i> IMMERSIVE DISPLAY</div>
+        <div class="content-block section-copy right-copy">
+          <p class="eyebrow">MORE DEPTH. MORE LIFE.</p>
+          <h2>OLED 6,67 inch.<br><span class="title-gradient">Rực rỡ</span> từng<br>khung hình.</h2>
+          <p class="section-description">Màn hình OLED FHD+ 120Hz kết hợp Dolby Vision, HDR10+ và HBM tới 1.000 nits — cho chuyển động mượt và màu sắc giàu chiều sâu.</p>
+          <div class="glass-spec-grid">
+            <div class="glass-spec"><span>DISPLAY</span><strong>OLED</strong><small>6,67 inch</small></div>
+            <div class="glass-spec"><span>RESOLUTION</span><strong>FHD+</strong><small>1080 × 2400</small></div>
+            <div class="glass-spec"><span>REFRESH RATE</span><strong class="cyan">120Hz</strong><small>240Hz touch</small></div>
+            <div class="glass-spec"><span>HDR FORMAT</span><strong>HDR10+</strong><small>Dolby Vision</small></div>
+            <div class="glass-spec"><span>PEAK HBM</span><strong>1.000</strong><small>nits</small></div>
+            <div class="glass-spec"><span>FLICKER CARE</span><strong>1.920Hz</strong><small>PWM dimming</small></div>
+          </div>
+          <div class="refresh-demo"><div class="refresh-visual"><span class="refresh-beam"></span><span class="refresh-core"></span></div><div><b>120Hz</b><small>Chuyển động liền mạch</small></div><div class="refresh-badge">SMOOTH<br><b>× 2</b></div></div>
+        </div>
+        <div class="screen-kicker"><span class="micro-label">OLED / 68 BILLION COLORS</span><strong>Feel every<br>frame.</strong></div>
+      </section>
+
+      <section class="story-section split-section performance-section" id="performance" data-scene="performance">
+        <div class="section-index"><span>04</span><i></i> POWER UNLEASHED</div>
+        <div class="content-block section-copy left-copy performance-copy">
+          <p class="eyebrow">SMALL CHIP. BIG ENERGY.</p>
+          <h2>Snapdragon<br><span class="title-gradient">7+ Gen 2.</span><br>Không giới hạn.</h2>
+          <p class="section-description">Nền tảng 4nm và GPU Adreno 725 tạo nên bộ đôi hiệu năng cho gaming, đa nhiệm và sáng tạo nội dung — trong một thân máy gọn nhẹ.</p>
+          <div class="chip-showcase"><div class="chip-graphic"><span class="chip-corner tl"></span><span class="chip-corner tr"></span><span class="chip-corner bl"></span><span class="chip-corner br"></span><div class="chip-grid"></div><strong>7+</strong><small>GEN 2</small></div><div class="chip-info"><span>QUALCOMM PLATFORM</span><b>Snapdragon 7+ Gen 2</b><small>4nm · Adreno 725</small></div></div>
+          <div class="performance-stats"><div><strong>4<span>nm</span></strong><small>PROCESS</small></div><div><strong>16<span>GB</span></strong><small>LPDDR5 RAM MAX</small></div><div><strong>1<span>TB</span></strong><small>UFS 3.1 STORAGE MAX</small></div></div>
+          <div class="data-stream"><span></span><span></span><span></span><span></span><span></span><span></span><small>DATA / FLOW</small></div>
+        </div>
+        <div class="performance-tag"><span class="tiny-dot"></span> ENGINEERED FOR MOMENTUM</div>
+      </section>
+
+      <section class="story-section split-section camera-section" id="camera" data-scene="camera">
+        <div class="section-index"><span>05</span><i></i> CAPTURE THE NIGHT</div>
+        <div class="content-block section-copy right-copy camera-copy">
+          <p class="eyebrow">LET THERE BE LIGHT</p>
+          <h2><span class="title-gradient">64MP OIS.</span><br>Bắt trọn<br>ánh sáng đêm.</h2>
+          <p class="section-description">Ghi lại khung cảnh rộng lớn, khoảnh khắc thường ngày và những chi tiết nhỏ với hệ thống camera đa dụng phía sau.</p>
+          <div class="lens-list">
+            <div class="lens-item"><span class="lens-icon lens-one"><i></i></span><div><strong>64MP <em>OIS</em></strong><small>CAMERA CHÍNH · CHỐNG RUNG QUANG HỌC</small></div><span class="lens-arrow">↗</span></div>
+            <div class="lens-item"><span class="lens-icon lens-two"><i></i></span><div><strong>8MP <em>ULTRA WIDE</em></strong><small>GÓC SIÊU RỘNG 120°</small></div><span class="lens-arrow">↗</span></div>
+            <div class="lens-item"><span class="lens-icon lens-three"><i></i></span><div><strong>2MP <em>MACRO</em></strong><small>CHI TIẾT Ở CỰ LY GẦN</small></div><span class="lens-arrow">↗</span></div>
+          </div>
+          <p class="camera-footnote">Camera trước 16MP · Video và ảnh tùy điều kiện chụp</p>
+        </div>
+        <div class="camera-side-label"><span>OPTICAL STABILIZATION</span><i></i><b>64<span>MP</span></b></div>
+      </section>
+
+      <section class="story-section split-section battery-section" id="battery" data-scene="battery">
+        <div class="section-index"><span>06</span><i></i> POWER THAT LASTS</div>
+        <div class="content-block section-copy left-copy battery-copy">
+          <p class="eyebrow">CHARGE. GO. REPEAT.</p>
+          <h2>Pin lớn.<br><span class="title-gradient">Nạp nhanh.</span><br>Sẵn sàng cả ngày.</h2>
+          <p class="section-description">Dung lượng 5.000 mAh kết hợp sạc nhanh có dây 67W và hỗ trợ PD3.0, QC4 để tiếp thêm năng lượng tiện lợi khi cần.</p>
+          <div class="battery-orb"><div class="battery-ring ring-outer"></div><div class="battery-ring ring-inner"></div><div class="battery-symbol"><span></span><i>+</i></div><div class="battery-orb-copy"><strong>5.000</strong><small>mAh</small></div></div>
+          <div class="charge-row"><div><strong>67W</strong><span>SẠC NHANH CÓ DÂY</span></div><div><strong>PD3.0</strong><span>POWER DELIVERY</span></div><div><strong>QC4</strong><span>QUICK CHARGE</span></div></div>
+        </div>
+        <div class="battery-side-note"><span class="tiny-dot green-dot"></span><strong>ENERGY<br>IN MOTION</strong></div>
+      </section>
+
+      <section class="story-section color-section" id="colors" data-scene="colors">
+        <div class="section-index"><span>07</span><i></i> THE COLOR COLLECTION</div>
+        <div class="content-block color-copy">
+          <p class="eyebrow">YOUR COLOR. YOUR CHARACTER.</p>
+          <h2>Chọn phong cách<br><span class="title-gradient">của bạn.</span></h2>
+          <p class="section-description">Ba sắc thái. Một ngôn ngữ thiết kế gọn gàng, hiện đại.</p>
+          <div class="color-picker" role="group" aria-label="Chọn màu điện thoại">
+            <button class="color-option" data-color="black" aria-pressed="false"><span class="swatch swatch-black"></span><span><b>Carbon Black</b><small>Đen sâu · mạnh mẽ</small></span><i>↗</i></button>
+            <button class="color-option" data-color="white" aria-pressed="false"><span class="swatch swatch-white"></span><span><b>Ice Feather White</b><small>Trắng bạc · tinh giản</small></span><i>↗</i></button>
+            <button class="color-option active" data-color="blue" aria-pressed="true"><span class="swatch swatch-blue"></span><span><b>Xinghai Blue</b><small>Xanh sao trời · nổi bật</small></span><i>↗</i></button>
+          </div>
+          <div class="color-status"><span class="tiny-dot"></span> CURRENT FINISH <strong id="current-color-name">XINGHAI BLUE</strong></div>
+        </div>
+        <div class="color-side-note"><span class="micro-label">FINISH STUDY / 03 COLORS</span><strong>Swipe to<br>make it yours.</strong></div>
+      </section>
+
+      <section class="story-section specs-section" id="specs" data-scene="specs">
+        <div class="section-index"><span>08</span><i></i> EVERYTHING IN DETAIL</div>
+        <div class="specs-heading content-block">
+          <p class="eyebrow">THE COMPLETE PICTURE</p>
+          <h2>Toàn bộ sức mạnh<br><span class="title-gradient">trong một thiết bị.</span></h2>
+          <p class="section-description">Thông số nổi bật của Redmi Note 12 Turbo.</p>
+        </div>
+        <div class="specs-grid">
+          <article class="spec-card"><span class="card-no">01 / DISPLAY</span><div class="spec-icon">◉</div><h3>Màn hình</h3><strong>OLED 6,67 inch</strong><p>FHD+ · 120Hz · Dolby Vision · HDR10+</p></article>
+          <article class="spec-card"><span class="card-no">02 / PLATFORM</span><div class="spec-icon">⌘</div><h3>Chip xử lý</h3><strong>Snapdragon 7+ Gen 2</strong><p>Tiến trình 4nm · GPU Adreno 725</p></article>
+          <article class="spec-card"><span class="card-no">03 / MEMORY</span><div class="spec-icon">▤</div><h3>RAM</h3><strong>8 / 12 / 16GB</strong><p>LPDDR5</p></article>
+          <article class="spec-card"><span class="card-no">04 / STORAGE</span><div class="spec-icon">▣</div><h3>Bộ nhớ trong</h3><strong>256GB / 512GB / 1TB</strong><p>UFS 3.1</p></article>
+          <article class="spec-card"><span class="card-no">05 / CAMERA</span><div class="spec-icon">◎</div><h3>Camera sau</h3><strong>64MP OIS + 8MP + 2MP</strong><p>Camera trước 16MP</p></article>
+          <article class="spec-card"><span class="card-no">06 / BATTERY</span><div class="spec-icon">ϟ</div><h3>Pin & sạc</h3><strong>5.000 mAh · 67W</strong><p>PD3.0 · QC4</p></article>
+          <article class="spec-card"><span class="card-no">07 / SOFTWARE</span><div class="spec-icon">⌁</div><h3>Phần mềm</h3><strong>Android 13</strong><p>MIUI 14 theo thông số công bố</p></article>
+          <article class="spec-card"><span class="card-no">08 / DIMENSIONS</span><div class="spec-icon">⤢</div><h3>Kích thước</h3><strong>161,1 × 75 × 7,9 mm</strong><p>Khối lượng 181 g</p></article>
+        </div>
+        <p class="specs-disclaimer">Thông số có thể khác nhau theo thị trường hoặc cấu hình. Đây là trang concept phi thương mại.</p>
+      </section>
+
+      <section class="story-section final-section" id="final" data-scene="final">
+        <div class="final-spotlight" aria-hidden="true"></div>
+        <div class="section-index"><span>09</span><i></i> YOUR NEXT CHAPTER</div>
+        <div class="content-block final-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> MADE TO MOVE</p>
+          <h2>Bừng sáng cùng<br><span class="title-gradient">hiệu năng đỉnh cao.</span></h2>
+          <p class="section-description">Redmi Note 12 Turbo — thiết kế mỏng nhẹ, màn hình rực rỡ và hiệu năng vượt trội.</p>
+          <div class="final-actions"><button class="button button-primary" id="preorder-button">Đặt trước ngay <span>↗</span></button><button class="button button-ghost" id="store-button">Tìm cửa hàng <span>↗</span></button></div>
+          <div class="final-signature"><span class="brand-symbol">R</span><span>REDMI NOTE 12 TURBO</span><i></i><span>DESIGNED FOR YOUR MOMENTUM</span></div>
+        </div>
+        <div class="final-bottom">A PRODUCT CONCEPT EXPERIENCE <span>—</span> 2026</div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-brand"><span class="brand-symbol">R</span><div><strong>REDMI NOTE 12 TURBO</strong><small>LIGHT UP YOUR SPEED.</small></div></div>
+      <nav aria-label="Liên kết footer"><a href="#hero">Giới thiệu</a><a href="#specs">Thông số</a><a href="#final">Hỗ trợ</a><a href="#privacy" id="privacy-link">Chính sách bảo mật</a></nav>
+      <p>Trang demo concept — không phải trang bán hàng chính thức.</p>
+      <span class="copyright">© CONCEPT / 2026</span>
+    </footer>
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
